@@ -573,3 +573,141 @@ h3 {
     color: var(--text-black);
   }
   
+  @media (max-width: 768px) {
+    body {
+      font-size: 16px;
+      background: lightgray;
+      padding-top: 120px; 
+    }
+  
+    h1.t {
+      font-size: 2rem; 
+    }
+  
+    .intro h2 {
+      font-size: 1.8rem; 
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      background-color: var(--main-yellow);
+      width: 100%;
+      display: none;
+      text-align: center;
+      padding: 20px 0;
+    }
+  
+    .nav-links.nav-active {
+      display: flex;
+    }
+  
+    .burger {
+      display: flex;
+    }
+  
+    .burger.toggle div:nth-child(1) {
+      transform: rotate(45deg) translateY(10px);
+    }
+  
+    .burger.toggle div:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .burger.toggle div:nth-child(3) {
+      transform: rotate(-45deg) translateY(-10px);
+    }
+  
+    .search-container {
+      max-width: 90%;
+      padding: 8px 16px;
+      margin-top: 10px;
+    }
+  
+    .search-input {
+      font-size: 14px;
+    }
+  
+    .search-button {
+      font-size: 16px;
+      padding: 8px;
+    }
+  
+    .image-carousel {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+  
+    .carousel img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .content {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .left, .right {
+      flex: 1 1 100%; 
+    }
+  
+    .social-links {
+      gap: 15px;
+    }
+  
+    .quick-links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      margin: 40px 0;
+    }
+  
+    .quick-links a {
+      padding: 10px 20px;
+      font-size: 1.1rem;
+    }
+  
+    .cta {
+      padding: 20px 10px; 
+    }
+  
+    .cta h2 {
+      font-size: 1.8rem; 
+    }
+  
+    .cta p {
+      font-size: 1rem; 
+    }
+  
+    footer {
+      text-align: center;
+      font-size: 1rem;
+      padding: 20px;
+    }
+  
+    .privacy-modal {
+      width: 90%; 
+      padding: 20px;
+    }
+  
+    .privacy-content {
+      max-width: 100%;
+      padding: 15px;
+    }
+  
+    .cta-button {
+      font-size: 1rem;
+      padding: 10px 25px;
+    }
+    #accept-privacy {
+      padding: 8px 20px;
+    }
+  
+    .credits {
+      font-size: 1rem;
+    }
+  }
+  
