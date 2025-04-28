@@ -710,4 +710,24 @@ h3 {
       font-size: 1rem;
     }
   }
-  
+
+.install-button {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--main-yellow);
+  color: var(--text-black);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.install-button:hover {
+  background-color: #f0ef92;
+}
