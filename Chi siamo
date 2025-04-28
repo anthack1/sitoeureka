@@ -33,7 +33,7 @@
                 </button>                              
             </div>
             <ul class="nav-links">
-                <li><a href="#">Chi siamo</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#">Progetti</a></li>
                 <li><a href="#">Eventi</a></li>
                 <li><a href="#">Social</a></li>
@@ -54,31 +54,21 @@
         <section class="content">
             <div class="left">
                 <p class="c">
-                    [èu-re-ka] s.m. (solo sing.) 
-                    def. Illuminazione improvvisa, 
-                    esplosione di fervore creativo 💡
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur reprehenderit rem repellat adipisci ab error consectetur? Consequatur perferendis exercitationem quibusdam adipisci, voluptas, officiis sit, quo et ipsum veritatis earum voluptatum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, nisi! Alias, nihil odit blanditiis tempora aperiam molestias reiciendis quo ad ducimus consectetur aspernatur porro obcaecati, eum, adipisci amet architecto ab.
                 </p>
-                <div class="image-carousel">
-                    <div class="carousel">
-                        <a href="https://www.instagram.com/p/DI1IZ5toobf/">
-                            <img src="Screenshot 2025-04-24 175641.png" alt="Immagine 1">
-                        </a>
-                        <a href="https://www.instagram.com/p/DBjJA3fNPWn/">
-                            <img src="Screenshot 2025-04-24 175655.png" alt="Immagine 2">
-                        </a>
-                        <a href="https://www.instagram.com/p/DBJUxi3tmrz/">
-                            <img src="Screenshot 2025-04-24 175704.png" alt="Immagine 3">
-                        </a>
-                        <a href="https://www.instagram.com/p/DBE1bVOKcwh/">
-                            <img src="Screenshot 2025-04-24 175714.png" alt="Immagine 4">
-                        </a>
-                    </div>
+                <div>
+                    <img src="" alt="Giulia Perri">
+                    <img src="" alt="Tania Spinella">
+                    <img src="" alt="Christian Bucalo">
+                    <img src="" alt="Giacomo Warm">
+                    <img src="" alt="Paolo Arigò">
+                </div>
                 </div>
             </div>
 
             <div class="right">
                 <div class="quick-links">
-                    <a href="#">Chi siamo</a>
+                    <a href="index.html">Home</a>
                     <a href="#">Progetti</a>
                     <a href="#">Eventi</a>
                 </div>
